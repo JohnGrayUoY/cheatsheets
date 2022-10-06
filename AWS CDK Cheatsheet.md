@@ -45,3 +45,7 @@ https://aws.amazon.com/cdk/
 * Destroy the CloudFormation stack with the specified name on the users AWS account. 
 
 *Note: This will only succeed if all resources within the stack are in a state which allows them to be deleted, for example, an S3 bucket can only be deleted if it has no content within it. If a stack contains an S3 bucket which has content within it, then the cdk destroy command will fail.*
+
+**cdk doctor**
+
+* Checks the current CloudFormation stacks on the users AWS account for any potential problems.
