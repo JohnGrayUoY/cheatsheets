@@ -2,7 +2,7 @@
 
 https://aws.amazon.com/cdk/
 
-Written using AWS CDK Version 2.44.0
+*Written using AWS CDK Version 2.44.0*
 
 ---
 
