@@ -24,11 +24,11 @@ https://docs.aws.amazon.com/cdk/api/v2/
 
 * Deploys a CloudFormation stack representing the stack specified by the CDK application being built.
 
-**cdk deploy -- all**
+**cdk deploy --all**
 
 * Deploys all CloudFormation stacks specified in the CDK application.
 
-**cdk deploy <stack name>**
+**cdk deploy [stack name]**
 
 * Deploys the CloudFormation stack with the specified name from within the CDK application.
 
