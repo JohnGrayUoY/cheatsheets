@@ -2,6 +2,8 @@
 
 https://aws.amazon.com/cdk/
 
+https://docs.aws.amazon.com/cdk/api/v2/
+
 *Written using AWS CDK Version 2.44.0*
 
 ---
