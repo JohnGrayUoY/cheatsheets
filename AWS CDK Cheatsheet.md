@@ -48,4 +48,4 @@ https://docs.aws.amazon.com/cdk/api/v2/
 
 **cdk doctor**
 
-* Checks the current CloudFormation stacks on the users AWS account for any potential problems.
+* Checks the current CloudFormation stacks which are active on the users AWS account for any potential problems.
