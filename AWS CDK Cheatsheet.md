@@ -28,6 +28,7 @@ https://docs.aws.amazon.com/cdk/api/v2/
     |---|---|
     |--all|*Deploys all CloudFormation stacks specified in the CDK application.*|
     |[stack names]|*Deploys the CloudFormation stacks with the specified names from within the CDK application.*|
+    |--parameters name=value|*Deploys the CloudFormation stack/s with values for parameters specified within the CDK application.*|
 
 **cdk list**
 
