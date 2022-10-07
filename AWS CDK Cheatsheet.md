@@ -32,7 +32,7 @@ https://docs.aws.amazon.com/cdk/api/v2/
 
 **cdk list**
 
-* Lists the names of the current CloudFormation stacks on the users AWS account.
+* Lists the names of the current CloudFormation stacks which are active within the users AWS account.
 
 **cdk diff**
 
