@@ -7,6 +7,7 @@ https://docs.aws.amazon.com/cdk/api/v2/
 *Written using AWS CDK Version 2.44.0*
 
 ## Commands
+
 **cdk init app --language typescript**
 
 * Initialises a new CDK application using Typescript as the specified language.
@@ -22,14 +23,9 @@ https://docs.aws.amazon.com/cdk/api/v2/
 **cdk deploy**
 
 * Deploys a CloudFormation stack representing the stack specified by the CDK application being built.
-
-**cdk deploy --all**
-
-* Deploys all CloudFormation stacks specified in the CDK application.
-
-**cdk deploy [stack name]**
-
-* Deploys the CloudFormation stack with the specified name from within the CDK application.
+* Args:
+    * --all &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Deploys all CloudFormation stacks specified in the CDK application.*
+    * [stack names] &nbsp; &nbsp; &nbsp; &nbsp; *Deploys the CloudFormation stacks with the specified names from within the CDK application.*
 
 **cdk list**
 
