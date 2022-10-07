@@ -23,9 +23,11 @@ https://docs.aws.amazon.com/cdk/api/v2/
 **cdk deploy**
 
 * Deploys a CloudFormation stack representing the stack specified by the CDK application being built.
-* Args:
-    * --all &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Deploys all CloudFormation stacks specified in the CDK application.*
-    * [stack names] &nbsp; &nbsp; &nbsp; &nbsp; *Deploys the CloudFormation stacks with the specified names from within the CDK application.*
+
+    |Command|Description|
+    |---|---|
+    |--all|*Deploys all CloudFormation stacks specified in the CDK application.*|
+    |[stack names]|*Deploys the CloudFormation stacks with the specified names from within the CDK application.*|
 
 **cdk list**
 
@@ -35,13 +37,13 @@ https://docs.aws.amazon.com/cdk/api/v2/
 
 * Compares the content of the local CDK templates to the CloudFormation stacks which currently exist on the users AWS account. 
 
-*Note: To use cdk diff, ensure that cdk synth has been called prior to cdk diff, ensuring that the templates on the local machine have been regenerated and represent any changes which have been made locally.*
+    *Note: To use cdk diff, ensure that cdk synth has been called prior to cdk diff, ensuring that the templates on the local machine have been regenerated and represent any changes which have been made locally.*
 
 **cdk destroy <stack name>**
 
 * Destroy the CloudFormation stack with the specified name on the users AWS account. 
 
-*Note: This will only succeed if all resources within the stack are in a state which allows them to be deleted, for example, an S3 bucket can only be deleted if it has no content within it. If a stack contains an S3 bucket which has content within it, then the cdk destroy command will fail.*
+    *Note: This will only succeed if all resources within the stack are in a state which allows them to be deleted, for example, an S3 bucket can only be deleted if it has no content within it. If a stack contains an S3 bucket which has content within it, then the cdk destroy command will fail.*
 
 **cdk doctor**
 
