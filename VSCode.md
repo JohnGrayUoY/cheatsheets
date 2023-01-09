@@ -2,4 +2,4 @@
 
 ### Preview Markdown
 
-Ctrl + Shift + V
+* Ctrl + Shift + V
